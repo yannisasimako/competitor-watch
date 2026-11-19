@@ -6,6 +6,17 @@ It looks at what competitors released, how they describe themselves now, and whi
 
 Runs on [Claude Code](https://code.claude.com), Anthropic's AI assistant. Every step is a plain text file you can read and edit.
 
+## Start here
+
+| You want to | Go to |
+|---|---|
+| **See what a check looks like** | [What you get](#-what-you-get): an example page. |
+| **Set it up** | [Setup](#-setup): three steps in GitHub, Notion and Claude. |
+| **Review a check** | [Reviewing a check](#-reviewing-a-check): keep, fix or drop each finding. |
+| **Know if it's for you** | [Questions people ask](#-questions-people-ask) |
+
+[How it works](#%EF%B8%8F-how-it-works) · [What you get](#-what-you-get) · [Your three files](#-your-three-files) · [Setup](#-setup) · [Alerts](#-getting-alerted) · [Reviewing](#-reviewing-a-check) · [Questions](#-questions-people-ask) · [Troubleshooting](#%EF%B8%8F-if-something-goes-wrong)
+
 ```mermaid
 flowchart LR
     A[Your 3 files] --> B[AI checks competitors]
@@ -14,16 +25,27 @@ flowchart LR
     D -->|kept findings update<br>your claim checklist| A
 ```
 
----
-
 ## ⚙️ How it works
 
-1. Reads your three files (below).
-2. Skips anything earlier checks already reported.
-3. Visits each competitor's own website, docs and announcements.
-4. Keeps only findings that touch one of your claims, and says whether each claim is still yours, now shared with a competitor, or no longer usable.
-5. Reopens every link and deletes anything it can't confirm.
-6. Writes a short Notion page anyone in the company can read.
+| Step | What happens |
+|---|---|
+| **Read** | Your three files: your story, your claims, your competitor list. |
+| **Skip** | Anything earlier checks already reported. |
+| **Look** | Each competitor's own website, docs and announcements. Never articles about them. |
+| **Judge** | Keeps only findings that touch one of your claims: still yours, now shared with a competitor, or no longer usable. |
+| **Verify** | Reopens every link, confirms every quote and date, deletes what it can't confirm. |
+| **Write** | One short Notion page anyone in the company can read. |
+
+**Read-only. Every link rechecked. Nothing changes without your review.**
+
+## 👀 What you get
+
+One Notion page per check. This example uses a made-up expense tool and made-up competitors:
+
+| | |
+|---|---|
+| ![Top of an example check page: properties, the period covered and a two-paragraph summary saying the core claim still holds, with one part now shared by Competitor B](docs/example-summary.png) | ![One finding: Competitor B now blocks out-of-policy payments in a beta, how often it has appeared, why it matters and what the source does not show](docs/example-finding.png) |
+| *The short version: does your main claim still hold?* | *One finding: what happened, why it matters, what it doesn't prove* |
 
 ## 📁 Your three files
 
@@ -39,14 +61,20 @@ Two files for claims on purpose: positioning is what you say, the checklist is w
 
 > 💡 **Tip:** fill in `positioning.md`, then ask Claude to draft `doctrine.md` from it and your website.
 
----
-
 ## 🚀 Setup
 
-**1. Copy this project**
-Use the **Fork** button (private is fine), fill in the three files and save them to GitHub.
+| Where | What to do |
+|---|---|
+| **1. GitHub** | **Fork** this project (private is fine), fill in the three files in `context/` and save them. |
+| **2. Notion** | Create a database called **Competitor Watch** with the six columns below. |
+| **3. Claude** | Connect Notion at [claude.ai/customize/connectors](https://claude.ai/customize/connectors), add the database ID to the instructions, then schedule the check. |
 
-**2. Create a Notion database** called **Competitor Watch** with these columns:
+<details>
+<summary><b>The Notion columns</b></summary>
+
+<br>
+
+Names must match exactly.
 
 | Column | Type |
 |---|---|
@@ -57,10 +85,22 @@ Use the **Fork** button (private is fine), fill in the three files and save them
 | Claims at risk | Text |
 | Status | Select: `Not reviewed`, `Reviewed`, `Nothing new` |
 
-**3. Connect Notion to Claude**
-At [claude.ai/customize/connectors](https://claude.ai/customize/connectors). Then ask Claude: *"give me the data source ID of my Competitor Watch database"*, and paste it into both files in `prompts/` where it says `<NOTION_DATA_SOURCE_ID>`.
+</details>
 
-**4. Schedule it**
+<details>
+<summary><b>Adding the database ID</b></summary>
+
+<br>
+
+Ask Claude: *"give me the data source ID of my Competitor Watch database"*. Paste it into both files in `prompts/` where it says `<NOTION_DATA_SOURCE_ID>`, and save them to GitHub.
+
+</details>
+
+<details>
+<summary><b>Scheduling the check</b></summary>
+
+<br>
+
 At [claude.ai/code/routines](https://claude.ai/code/routines) > **New task**. Needs a paid Claude plan; it asks to connect GitHub the first time.
 
 | Field | Enter |
@@ -73,9 +113,9 @@ At [claude.ai/code/routines](https://claude.ai/code/routines) > **New task**. Ne
 
 Click **Create**, then **Run now**.
 
-> ⚠️ The first check looks back 90 days. Click through a few findings to their sources before trusting the rest.
+</details>
 
----
+> ⚠️ The first check looks back 90 days. Click through a few findings to their sources before trusting the rest.
 
 ## 🔔 Getting alerted
 
@@ -90,6 +130,23 @@ In Claude Code on your computer, open your copy of this project and type *"follo
 3. Updates `doctrine.md`, marks the page reviewed and offers to save the change to GitHub.
 
 **Or by hand:** read the page, edit `doctrine.md` on GitHub, set the page to `Reviewed`.
+
+## ❓ Questions people ask
+
+**What does it cost?**
+Nothing extra. It runs on your Claude plan and your Notion workspace, and each check uses some of your Claude allowance.
+
+**Will it change my files or my website?**
+No. A check only reads the web and writes one Notion page. Your claim checklist changes only when you review.
+
+**Can it make things up?**
+It reopens every link and quote and deletes what it can't confirm. Still, click through the first few findings before you trust it.
+
+**How many competitors can I add?**
+The original setup checks 25 per run.
+
+**Can I use it without Notion?**
+Not out of the box. The check needs somewhere to write each page, and it's built for Notion.
 
 ## 🛠️ If something goes wrong
 
