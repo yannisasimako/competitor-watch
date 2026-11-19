@@ -4,7 +4,7 @@
 
 It looks at what competitors released, how they describe themselves now, and which customers they announced, and checks each finding against your "claims": the reasons you give buyers to pick you, e.g. "the only tool that does X". Each check becomes one Notion page. You review it; nothing changes without you.
 
-Runs on [Claude Code](https://code.claude.com), Anthropic's AI assistant. Every step is a plain text file you can read and edit.
+Runs on [Claude Code](https://code.claude.com). Every step is a plain text file you can read and edit.
 
 ## Start here
 
