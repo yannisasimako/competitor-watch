@@ -59,7 +59,7 @@ All in `context/`:
 | File | What it is | Changes |
 |---|---|---|
 | `positioning.md` | Your story: what you sell, to whom, what they use instead, why you win. | Rarely |
-| `doctrine.md` | Your claim checklist: each claim, whether it still holds, since when, and the proof. | After each review |
+| `doctrine.md` | Your claim checklist: each claim, whether it still holds, since when, and the proof. E.g. *"Set up in a day": no longer only ours, Competitor D matched it on Oct 30 (link).* | After each review |
 | `competitors.md` | Who to check and where they post news. | When the list changes |
 
 Two files for claims on purpose: positioning is what you say, the checklist is whether it's still true. A competitor's launch updates the checklist, never your story.
