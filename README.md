@@ -200,8 +200,6 @@ Honest writing on marketing, AI, and figuring it out as you go.
 
 [LinkedIn](https://www.linkedin.com/in/yannis-asimakopoulos/) · [Substack](https://substack.com/@yannisasimako)
 
-Using it? Tell me what you changed.
-
 ---
 
 MIT license
