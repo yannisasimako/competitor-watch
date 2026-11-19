@@ -1,4 +1,6 @@
-# 🔭 Competitor Watch
+<p align="center">
+  <img src="docs/banner.png" alt="Competitor Watch: catch every move your competitors make. Binoculars peeking over a picket fence, by Yannis Asimakopoulos." width="800">
+</p>
 
 **Catch every move your competitors make, and see whether your pitch still holds up.**
 
