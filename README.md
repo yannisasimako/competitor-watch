@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.png" alt="Competitor Watch: catch every move your competitors make. Binoculars peeking over a picket fence, by Yannis Asimakopoulos." width="800">
+  <img src="docs/banner-v2.png" alt="Competitor Watch: catch every move your competitors make. Binoculars peeking over a picket fence, by Yannis Asimakopoulos." width="800">
 </p>
 
 <h2 align="center">👀 Catch every move your competitors make,<br>and see whether your pitch still holds up.</h2>
