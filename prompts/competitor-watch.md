@@ -33,7 +33,7 @@ Create the page **inside the database**: call notion-create-pages with parent `{
 **Write the page body for any employee (a salesperson, an engineer, a new hire) who has no context and will never read another page to understand this one.** Follow this structure exactly:
 
 1. This sentence, with N = the number of vendors in competitors.md: "We regularly check what N competitors have released, how they describe themselves, and which customers they announce. This page is the record of one check." Then a bulleted list, one line each:
-   - `**Period covered:**` the date range as a Notion date mention, e.g. `<mention-date start="2026-01-06" end="2026-01-09"/>`.
+   - `**Period covered:**` the date range as a Notion date mention, e.g. `<date start="2026-01-06" end="2026-01-09"/>`.
    - `**Longer look-back:**` only if some vendors got a longer window: the date range as a date mention, then "for" and the vendors. Leave this bullet out otherwise.
    - `**Reviewed by marketing:** not yet`
    Every date in the page body is a date mention, never typed text.
@@ -45,7 +45,7 @@ Create the page **inside the database**: call notion-create-pages with parent `{
 3. **## What came up this period**. Open with this callout, filling in the two numbers from your count:
 ```
 <callout icon="ℹ️" color="gray_bg">
-	Each finding opens with how often that vendor has appeared. The count is how many of the N runs since this watch began on <mention-date start="YYYY-MM-DD"/> included something from that vendor. It counts appearances, not importance, and says nothing about vendors we don't track.
+	Each finding opens with how often that vendor has appeared. The count is how many of the N runs since this watch began on <date start="YYYY-MM-DD"/> included something from that vendor. It counts appearances, not importance, and says nothing about vendors we don't track.
 </callout>
 ```
    Then one `###` heading per finding. The heading is a plain-English sentence stating what the vendor did, naming the vendor — not a label, not "Vendor: topic". Under it, in this order and as prose, not bullets:
