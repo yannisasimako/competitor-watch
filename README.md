@@ -40,7 +40,12 @@ flowchart LR
 
 ## 👀 What you get
 
-One Notion page per check. This example uses a made-up expense tool and made-up competitors:
+A Notion database that fills up with one page per check. This example uses a made-up expense tool and made-up competitors:
+
+![A Notion table of six checks: run date, competitors with changes, number of findings, the claim at risk and whether marketing reviewed it](docs/example-table.png)
+*Every check in one table: what changed, which claim is at risk, what's still waiting for review*
+
+Open a check and you get one page:
 
 | | |
 |---|---|
@@ -133,20 +138,53 @@ In Claude Code on your computer, open your copy of this project and type *"follo
 
 ## ❓ Questions people ask
 
-**What does it cost?**
-Nothing extra. It runs on your Claude plan and your Notion workspace, and each check uses some of your Claude allowance.
+<details>
+<summary><b>What does it cost?</b></summary>
 
-**Will it change my files or my website?**
-No. A check only reads the web and writes one Notion page. Your claim checklist changes only when you review.
+No subscription of its own. Scheduled checks need a paid Claude plan, and each check uses part of that plan's usage. The pages go to your existing Notion workspace.
+</details>
 
-**Can it make things up?**
-It reopens every link and quote and deletes what it can't confirm. Still, click through the first few findings before you trust it.
+<details>
+<summary><b>Does it work for my market?</b></summary>
 
-**How many competitors can I add?**
-The original setup checks 25 per run.
+If your competitors publish news, docs or customer stories online, yes. It knows nothing about your market until you fill in the three files, and it's only as sharp as your claim checklist.
+</details>
 
-**Can I use it without Notion?**
-Not out of the box. The check needs somewhere to write each page, and it's built for Notion.
+<details>
+<summary><b>Can I use something other than Notion?</b></summary>
+
+Yes. Notion is what it's set up for, but the instructions are plain text. Connect the tool you use to Claude (e.g. Google Docs), then ask Claude to rewrite the "write the page" step in `prompts/competitor-watch.md` and the matching steps in `prompts/review.md` for it.
+</details>
+
+<details>
+<summary><b>Will it change my files or my website?</b></summary>
+
+No. A check only reads the web and writes one page. Your claim checklist changes only when you review, and only with your yes.
+</details>
+
+<details>
+<summary><b>Can it make things up?</b></summary>
+
+AI can. That's why every check reopens each link, confirms each quote and date, and deletes what it can't confirm. Still, click through the first few findings before you trust it.
+</details>
+
+<details>
+<summary><b>What can't it see?</b></summary>
+
+Anything competitors don't publish: roadmaps, sales conversations, gated content, and often pricing. Some sites block automated visits; those competitors show up as "not covered" and are tried again next time.
+</details>
+
+<details>
+<summary><b>How many competitors, how often?</b></summary>
+
+The original setup checks 25 competitors twice a week. Add or remove competitors in `competitors.md` and change the schedule in the task's settings. Each check only reports what's new since the last one, so more often means shorter pages, not more noise.
+</details>
+
+<details>
+<summary><b>Can my team read the pages?</b></summary>
+
+Yes, that's who they're written for: plain words, no internal shorthand. Share the Notion database with sales, product or anyone who gets asked about competitors.
+</details>
 
 ## 🛠️ If something goes wrong
 
