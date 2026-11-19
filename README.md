@@ -2,7 +2,7 @@
   <img src="docs/banner.png" alt="Competitor Watch: catch every move your competitors make. Binoculars peeking over a picket fence, by Yannis Asimakopoulos." width="800">
 </p>
 
-<h2 align="center">Catch every move your competitors make,<br>and see whether your pitch still holds up.</h2>
+<h2 align="center">👀 Catch every move your competitors make,<br>and see whether your pitch still holds up.</h2>
 
 Have you ever:
 - told a prospect "we're the only ones who do X," then heard on the call that a competitor launched it last month?
