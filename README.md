@@ -4,7 +4,7 @@
 
 <h2 align="center">Catch every move your competitors make, and see whether your pitch still holds up.</h2>
 
-It looks at what competitors released, how they describe themselves now, and which customers they announced, and checks each finding against your "claims": the reasons you give buyers to pick you, e.g. "the only tool that does X". Each check becomes one Notion page. You review it; nothing changes without you.
+It looks at what competitors released, how they describe themselves now, and which customers they announced, and checks each finding against your "claims": the reasons you give buyers to pick you, e.g. "the only tool that does X". It reads competitors' own websites, not social media. Each check becomes one Notion page. You review it; nothing changes without you.
 
 Runs on [Claude Code](https://code.claude.com). Every step is a plain text file you can read and edit.
 
@@ -144,6 +144,12 @@ In Claude Code on your computer, open your copy of this project and type *"follo
 <summary><b>What does it cost?</b></summary>
 
 No subscription of its own. Scheduled checks need a paid Claude plan, and each check uses part of that plan's usage. The pages go to your existing Notion workspace.
+</details>
+
+<details>
+<summary><b>Is this social listening?</b></summary>
+
+No. It doesn't track posts, mentions or sentiment. It reads competitors' own websites, docs and announcements, and only reports what touches the claims you make.
 </details>
 
 <details>
