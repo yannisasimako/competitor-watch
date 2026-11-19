@@ -194,4 +194,14 @@ Open the run in the task's **History** to see what Claude did. Most failures are
 
 ---
 
+## 👋 Built by Yannis Asimakopoulos
+
+Honest writing on marketing, AI, and figuring it out as you go.
+
+[LinkedIn](https://www.linkedin.com/in/yannis-asimakopoulos/) · [Substack](https://substack.com/@yannisasimako)
+
+Using it? Tell me what you changed.
+
+---
+
 MIT license
