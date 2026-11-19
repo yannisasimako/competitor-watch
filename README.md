@@ -4,7 +4,14 @@
 
 <h2 align="center">Catch every move your competitors make, and see whether your pitch still holds up.</h2>
 
-It looks at what competitors released, how they describe themselves now, and which customers they announced, and checks each finding against your "claims": the reasons you give buyers to pick you, e.g. "the only tool that does X". It reads competitors' own websites, not social media. Each check becomes one Notion page. You review it; nothing changes without you.
+Have you ever:
+- told a prospect "we're the only ones who do X," then heard on the call that a competitor launched it last month?
+- looked at the differentiators on your website and wondered if they're still true?
+- learned about a competitor's launch from a customer, before your own team knew?
+
+That's what this is for: keeping your positioning and differentiation true as competitors move. It is not a social listening tool. It doesn't track posts, mentions or sentiment. It reads what competitors publish about their product and tells you which of your claims it affects.
+
+How: it checks what competitors released, how they describe themselves now and which customers they announced, against your "claims": the reasons you give buyers to pick you, e.g. "the only tool that does X". Each check becomes one Notion page. You review it; nothing changes without you.
 
 Runs on [Claude Code](https://code.claude.com). Every step is a plain text file you can read and edit.
 
