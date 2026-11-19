@@ -21,7 +21,7 @@ Runs on [Claude Code](https://code.claude.com). Every step is a plain text file 
 
 ```mermaid
 flowchart LR
-    A[Your 3 files] --> B[AI checks competitors]
+    A[Your story, your claims<br>and your competitor list] --> B[AI checks competitors]
     B --> C[Notion page]
     C --> D[You review]
     D -->|kept findings update<br>your claim checklist| A
