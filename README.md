@@ -1,6 +1,6 @@
 # 🔭 Competitor Watch
 
-**Catch every new feature, message change and customer win from your competitors, and see whether your pitch still holds up.**
+**Catch every move your competitors make, and see whether your pitch still holds up.**
 
 It looks at what competitors released, how they describe themselves now, and which customers they announced, and checks each finding against your "claims": the reasons you give buyers to pick you, e.g. "the only tool that does X". Each check becomes one Notion page. You review it; nothing changes without you.
 
