@@ -1,6 +1,6 @@
 # 🔭 Competitor Watch
 
-**Twice a week, an AI checks what your competitors launched and tells you whether your reasons to be picked still hold.**
+**Know what your competitors launched this week, and whether your pitch still holds up.**
 
 It looks at what competitors released, how they describe themselves now, and which customers they announced, and checks each finding against your "claims": the reasons you give buyers to pick you, e.g. "the only tool that does X". Each check becomes one Notion page. You review it; nothing changes without you.
 
