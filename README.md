@@ -1,6 +1,6 @@
 # Competitor Watch
 
-An AI assistant that checks your competitors twice a week. It looks at what they released, how they now describe themselves, and which customers they announced. Then it checks each finding against what you say about your own product, and tells you which of your claims still hold. It writes one page per check to Notion. It never changes anything by itself: you review each page and decide what to keep.
+An AI assistant that checks your competitors twice a week. It looks at what they released, how they now describe themselves, and which customers they announced. Then it tells you whether the reasons you give buyers to pick you (your "claims", e.g. "the only tool that does X") are still true, or whether a competitor can now say the same. It writes one page per check to Notion. It never changes anything by itself: you review each page and decide what to keep.
 
 It runs on Claude Code, Anthropic's AI assistant for working with files and the web. The instructions are plain text files, so you can read and change every step.
 
