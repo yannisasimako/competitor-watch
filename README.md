@@ -2,7 +2,7 @@
   <img src="docs/banner.png" alt="Competitor Watch: catch every move your competitors make. Binoculars peeking over a picket fence, by Yannis Asimakopoulos." width="800">
 </p>
 
-**Catch every move your competitors make, and see whether your pitch still holds up.**
+<h2 align="center">Catch every move your competitors make, and see whether your pitch still holds up.</h2>
 
 It looks at what competitors released, how they describe themselves now, and which customers they announced, and checks each finding against your "claims": the reasons you give buyers to pick you, e.g. "the only tool that does X". Each check becomes one Notion page. You review it; nothing changes without you.
 
