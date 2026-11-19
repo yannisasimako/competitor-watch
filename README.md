@@ -66,7 +66,7 @@ All in `context/`:
 
 Two files for claims on purpose: positioning is what you say, the checklist is whether it's still true. A competitor's launch updates the checklist, never your story.
 
-> 💡 **Tip:** fill in `positioning.md`, then ask Claude to draft `doctrine.md` from it and your website.
+> 💡 **Tip:** see [`examples/`](examples/) for all three filled in for a made-up company. Then fill in `positioning.md` and ask Claude to draft `doctrine.md` from it and your website.
 
 ## 🚀 Setup
 
