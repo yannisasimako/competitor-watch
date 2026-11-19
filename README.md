@@ -80,15 +80,15 @@ Two files for claims on purpose: positioning is what you say, the checklist is w
 | Where | What to do |
 |---|---|
 | **1. GitHub** | **Fork** this project (private is fine), fill in the three files in `context/` and save them. |
-| **2. Notion** | Create a database called **Competitor Watch** with the six columns below. |
+| **2. Notion** | Open the [Competitor Watch template](https://worried-can-14d.notion.site/41de2a563ab78161aea5e5cf815e4a3e?v=41de2a563ab7810385b5000cf34a53bc), click **Duplicate**, then delete the example row. |
 | **3. Claude** | Connect Notion at [claude.ai/customize/connectors](https://claude.ai/customize/connectors), add the database ID to the instructions, then schedule the check. |
 
 <details>
-<summary><b>The Notion columns</b></summary>
+<summary><b>Prefer to build the database yourself?</b></summary>
 
 <br>
 
-Names must match exactly.
+Create a database called **Competitor Watch** with these columns. Names must match exactly.
 
 | Column | Type |
 |---|---|
