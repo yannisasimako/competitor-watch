@@ -36,7 +36,7 @@ flowchart LR
 |---|---|
 | **Read** | Your three files: your story (`positioning.md`), your claims (`claims.md`) and your competitor list (`competitors.md`). |
 | **Skip** | Anything earlier checks already reported. |
-| **Look** | Each competitor's own website, docs and announcements. Never articles about them. |
+| **Look** | Each competitor's own website, docs and announcements. Articles about them are never the source. |
 | **Judge** | Keeps only findings that touch one of your claims: still yours, now shared with a competitor, or no longer usable. |
 | **Verify** | Reopens every link, confirms every quote and date, deletes what it can't confirm. |
 | **Write** | One short Notion page anyone in the company can read. |
@@ -75,7 +75,7 @@ Two files for claims on purpose: positioning is what you say, the checklist is w
 
 | Where | What to do |
 |---|---|
-| **1. GitHub** | **Fork** this project (private is fine), fill in the three files in `context/` and save them. |
+| **1. GitHub** | Click **Use this template** > **Create a new repository** and make it private. Fill in the three files in `context/` and save them. |
 | **2. Notion** | Open the [Competitor Watch template](https://worried-can-14d.notion.site/41de2a563ab78161aea5e5cf815e4a3e?v=41de2a563ab7810385b5000cf34a53bc), click **Duplicate**, then delete the example row. |
 | **3. Claude** | Connect Notion at [claude.ai/customize/connectors](https://claude.ai/customize/connectors), add the database ID to the instructions, then schedule the check. |
 
@@ -102,7 +102,9 @@ Create a database called **Competitor Watch** with these columns. Names must mat
 
 <br>
 
-Ask Claude: *"give me the data source ID of my Competitor Watch database"*. Paste it into both files in `prompts/` where it says `<NOTION_DATA_SOURCE_ID>`, and save them to GitHub.
+Ask Claude: *"give me the data source ID of my Competitor Watch database"*. Paste it into both files in `prompts/` everywhere it says `<NOTION_DATA_SOURCE_ID>` (it appears more than once), and save them to GitHub.
+
+Optional: put your name where it says `<OWNER>` in `prompts/competitor-watch.md`, so readers of a page know who to ask.
 
 </details>
 
@@ -188,7 +190,7 @@ Anything competitors don't publish: roadmaps, sales conversations, gated content
 <details>
 <summary><b>How many competitors, how often?</b></summary>
 
-The original setup checks 25 competitors twice a week. Add or remove competitors in `competitors.md` and change the schedule in the task's settings. Each check only reports what's new since the last one, so more often means shorter pages, not more noise.
+My own setup checks 25 competitors twice a week. Add or remove competitors in `competitors.md` and change the schedule in the task's settings. Each check only reports what's new since the last one, so more often means shorter pages, not more noise.
 </details>
 
 <details>
