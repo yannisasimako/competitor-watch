@@ -120,7 +120,7 @@ At [claude.ai/code/routines](https://claude.ai/code/routines) > **New task**. Ne
 | Prompt | `Read prompts/competitor-watch.md in this repo and follow it exactly.` |
 | Schedule | As often as you want to check |
 | Repository | Your copy |
-| Model | The most capable one |
+| Model | Sonnet works well. Opus judges better and uses more of your plan. |
 | Connectors | Keep Notion (and Slack for alerts), remove the rest |
 
 Click **Create**, then **Run now**.
