@@ -118,14 +118,12 @@ At [claude.ai/code/routines](https://claude.ai/code/routines) > **New task**. Ne
 | Field | Enter |
 |---|---|
 | Prompt | `Read prompts/competitor-watch.md in this repo and follow it exactly.` |
-| Schedule | Custom: `0 4 * * 2,5` (Tue and Fri, 4:00 UTC) |
+| Schedule | As often as you want to check |
 | Repository | Your copy |
 | Model | The most capable one |
 | Connectors | Keep Notion (and Slack for alerts), remove the rest |
 
 Click **Create**, then **Run now**.
-
-Pick any preset when you create it, then open **Edit** and set **Custom** to `0 4 * * 2,5`.
 
 </details>
 
