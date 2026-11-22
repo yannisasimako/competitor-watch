@@ -211,6 +211,8 @@ Honest writing on marketing, AI, and figuring it out as you go.
 
 [LinkedIn](https://www.linkedin.com/in/yannis-asimakopoulos/) · [Substack](https://substack.com/@yannisasimako)
 
+More from me: **[AI Coach](https://github.com/yannisasimako/ai-coach)**, how you work with Claude Code, reviewed every week.
+
 ---
 
 MIT license
