@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner-v2.png" alt="Competitor Watch: every competitor move, checked against your positioning. Binoculars peeking over a picket fence, by Yannis Asimakopoulos." width="800">
+  <img src="docs/banner-v3.png" alt="Competitor Watch: every competitor move, checked against your positioning. Binoculars peeking over a picket fence. By Yannis Asimakopoulos, yannisasimako.substack.com." width="800">
 </p>
 
 <h2 align="center">👀 Catch every move your competitors make,<br>and see whether your pitch still holds up.</h2>
@@ -31,6 +31,15 @@ flowchart LR
     C --> D[You review]
     D -->|kept findings update<br>your claim checklist| A
 ```
+
+| In the diagram | What it means |
+|---|---|
+| **Your story** | `positioning.md`: what you sell, to whom, and why you win. |
+| **Your claims** | `doctrine.md`, your claim checklist. Each reason you give buyers to pick you, and whether it still holds. |
+| **Competitor list** | `competitors.md`: who to check and where they post news. |
+| **AI checks competitors** | Claude reads each competitor's own website, docs and announcements. Twice a week by default. |
+| **Notion page** | One page per check: what changed and which claim it touches. |
+| **You review** | You keep, fix or drop each finding. Kept findings update `doctrine.md`, so the next check knows what's still true. |
 
 ## ⚙️ How it works
 
