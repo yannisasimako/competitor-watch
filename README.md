@@ -125,6 +125,8 @@ At [claude.ai/code/routines](https://claude.ai/code/routines) > **New task**. Ne
 
 Click **Create**, then **Run now**.
 
+Pick any preset when you create it, then open **Edit** and set **Custom** to `0 4 * * 2,5`.
+
 </details>
 
 > ⚠️ The first check looks back 90 days. Click through a few findings to their sources before trusting the rest.
