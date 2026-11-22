@@ -22,8 +22,6 @@ Runs on [Claude Code](https://code.claude.com). Every step is a plain text file 
 | **Review a check** | [Reviewing a check](#-reviewing-a-check): keep, fix or drop each finding. |
 | **Know if it's for you** | [Questions people ask](#-questions-people-ask) |
 
-[How it works](#%EF%B8%8F-how-it-works) · [What you get](#-what-you-get) · [Your three files](#-your-three-files) · [Setup](#-setup) · [Alerts](#-getting-alerted) · [Reviewing](#-reviewing-a-check) · [Questions](#-questions-people-ask) · [Troubleshooting](#%EF%B8%8F-if-something-goes-wrong)
-
 ```mermaid
 flowchart LR
     A[Your story, your claims<br>and your competitor list] --> B[AI checks competitors]
@@ -32,20 +30,11 @@ flowchart LR
     D -->|kept findings update<br>your claim checklist| A
 ```
 
-| In the diagram | What it means |
-|---|---|
-| **Your story** | `positioning.md`: what you sell, to whom, and why you win. |
-| **Your claims** | `doctrine.md`, your claim checklist. Each reason you give buyers to pick you, and whether it still holds. |
-| **Competitor list** | `competitors.md`: who to check and where they post news. |
-| **AI checks competitors** | Claude reads each competitor's own website, docs and announcements. Twice a week by default. |
-| **Notion page** | One page per check: what changed and which claim it touches. |
-| **You review** | You keep, fix or drop each finding. Kept findings update `doctrine.md`, so the next check knows what's still true. |
-
 ## ⚙️ How it works
 
 | Step | What happens |
 |---|---|
-| **Read** | Your three files: your story, your claims, your competitor list. |
+| **Read** | Your three files: your story (`positioning.md`), your claims (`claims.md`) and your competitor list (`competitors.md`). |
 | **Skip** | Anything earlier checks already reported. |
 | **Look** | Each competitor's own website, docs and announcements. Never articles about them. |
 | **Judge** | Keeps only findings that touch one of your claims: still yours, now shared with a competitor, or no longer usable. |
@@ -75,12 +64,12 @@ All in `context/`:
 | File | What it is | Changes |
 |---|---|---|
 | `positioning.md` | Your story: what you sell, to whom, what they use instead, why you win. | Rarely |
-| `doctrine.md` | Your claim checklist: each claim, whether it still holds, since when, and the proof. E.g. *"Set up in a day": no longer only ours, Competitor D matched it on Oct 30 (link).* | After each review |
+| `claims.md` | Your claim checklist: each claim, whether it still holds, since when, and the proof. E.g. *"Set up in a day": no longer only ours, Competitor D matched it on Oct 30 (link).* | After each review |
 | `competitors.md` | Who to check and where they post news. | When the list changes |
 
 Two files for claims on purpose: positioning is what you say, the checklist is whether it's still true. A competitor's launch updates the checklist, never your story.
 
-> 💡 **Tip:** see [`examples/`](examples/) for all three filled in for a made-up company. Then fill in `positioning.md` and ask Claude to draft `doctrine.md` from it and your website.
+> 💡 **Tip:** see [`examples/`](examples/) for all three filled in for a made-up company. Then fill in `positioning.md` and ask Claude to draft `claims.md` from it and your website.
 
 ## 🚀 Setup
 
@@ -148,9 +137,9 @@ In Claude Code on your computer, open your copy of this project and type *"follo
 
 1. Shows the findings three or four at a time, each marked **keep**, **fix** or **drop**.
 2. Takes your answer for the group ("keep all", "drop 4").
-3. Updates `doctrine.md`, marks the page reviewed and offers to save the change to GitHub.
+3. Updates `claims.md`, marks the page reviewed and offers to save the change to GitHub.
 
-**Or by hand:** read the page, edit `doctrine.md` on GitHub, set the page to `Reviewed`.
+**Or by hand:** read the page, edit `claims.md` on GitHub, set the page to `Reviewed`.
 
 ## ❓ Questions people ask
 

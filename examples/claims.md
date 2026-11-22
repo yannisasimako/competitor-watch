@@ -1,4 +1,4 @@
-# Doctrine: our claim checklist
+# Our claim checklist
 
 Example for a made-up company, ExampleCo. Updated after the review of the checks up to November 10, 2026.
 

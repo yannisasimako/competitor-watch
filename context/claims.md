@@ -1,4 +1,4 @@
-# Doctrine: our claim checklist
+# Our claim checklist
 
 Whether each thing we say about our product is still true, given what competitors now offer, with dates and proof. Every finding is checked against this file. It only changes when you review a check.
 
